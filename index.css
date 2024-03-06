@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+.Nav-link ul li {
+  /* margin-right: 20p */
+  display: inline-block;
+  padding: 8px 10px;
+  position: relative;
+}
+.Nav-link ul li a {
+  margin-right: 50px;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 50px;
+}
+.Nav-link ul li a :hover {
+  background-color: red;
+}
+.Nav-link {
+  text-align: center;
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  height: 70px;
+}
+.imegku image {
+  width: 1475px;
+  height: 492px;
+}
+
+.contner {
+  width: 1500px;
+  height: 3300px;
+  background-color: white;
+}
+.matin {
+  padding: 20px 200px;
+}
+.matin p {
+  font-size: 18px;
+  /* font-weight: 300; */
+  line-height: 32px;
+  margin: 0px 0px 50px 0px;
+}
+.matin ul li {
+  display: inline-block;
+}
+.matin ul li video {
+  width: 400px;
+  height: 410px;
+  margin-left: 90px;
+}
+.MAlumot {
+  width: 1500px;
+  height: 550px;
+  margin: 1px 0px;
+  background-color: black;
+}
+.MAlumot img {
+  width: 750px;
+  height: 450px;
+  padding: 15px 0px 0px 200px;
+}
+.MAlumot ul li {
+  display: inline-block;
+}
+.Text p {
+  font-size: 20px;
+  color: white;
+  line-height: 32px;
+  margin: 0px 0px 110px 0px;
+}
+.Text {
+  margin-left: 70px;
+}
+
+.Text h1 {
+  margin-bottom: 100px;
+  color: white;
+}
+.Text button {
+  text-align: center;
+  background-color: brown;
+  color: white;
+  margin-top: 17px;
+  border: none;
+}
+.buttuns {
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  display: inline-block;
+  background-color: brown;
+}
+
+.banner {
+  text-align: center;
+}
+
+.gg-home {
+  background: linear-gradient(to left, currentColor 5px, transparent 0)
+      no-repeat 0 bottom/4px 2px,
+    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat right
+      bottom/4px 2px;
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs, 1));
+  width: 18px;
+  height: 14px;
+  border: 2px solid;
+  border-top: 0;
+  border-bottom: 0;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-bottom: -2px;
+}
+
+.gg-home::after,
+.gg-home::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+.gg-home::before {
+  border-top: 2px solid;
+  border-left: 2px solid;
+  border-top-left-radius: 4px;
+  transform: rotate(45deg);
+  top: -5px;
+  border-radius: 3px;
+  width: 14px;
+  height: 14px;
+  left: 0;
+}
+
+.gg-home::after {
+  width: 8px;
+  height: 10px;
+  border: 2px solid;
+  border-radius: 100px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 0;
+  left: 3px;
+  bottom: 0;
+}
+.ui ul li {
+  display: inline-block;
+  /* position: relative; */
+}
+
+.contact {
+  text-align: center;
+}
+
+.element {
+  font-size: 20px;
+  color: black;
+  line-height: 32px;
+  /* margin: 0px 0px 110px 0px; */
+  margin-top: 30px;
+}
+
+.foter ul li {
+  display: inline-block;
+}
+.foter {
+  height: 400px;
+  background-color: beige;
+  text-align: center;
+}
+
+.header-1 {
+  background: var(--Drivesasa-Blue, #10255a);
+  height: 791px;
+}
+
+.internet {
+  margin: 0px 100px 20px 380px;
+}
+.terms {
+  display: flex;
+  padding-top: 20px;
+  gap: 53px;
+}
+.container ul li {
+  display: inline-block;
+  width: 400px;
+  color: white;
+}
+.container {
+  /* text-align:center; */
+  margin-left: 150px;
+}
+
+.header-1 {
+  background-color: black;
+  height: 250px;
+}
+
+.iconcs {
+  font-size: 35px;
+}
+.location iframe {
+  width: 800px;
+  height: 740px;
+  text-align: center;
+}
+.location {
+  text-align: center;
+}
+.a {
+  text-decoration: none;
+}
+
+.contact iframe {
+  width: 300px;
+  height: 340px;
+}
+.Nav-link ul li:hover .drow-down {
+  display: flex;
+}
+
+.drow-down {
+  position: absolute;
+  left: 0;
+  top: 50px;
+  display: none;
+  background-color: white;
+}
+
+.drow-down ul {
+  flex-direction: column;
+}
+
+.drow-down a {
+  color: black;
+}
+
+.header-1 ul li {
+  text-decoration: none;
+  flex-direction: column;
+}
+
+.course-center a{
+  text-decoration: none;
+  flex-direction: column;
+}
+
