@@ -27,8 +27,10 @@
   height: 70px;
 }
 .imegku image {
-  width: 1475px;
-  height: 492px;
+  width: 100%; /* Elementni ekran eniga moslash */
+  height: auto; /* Elementni ekran balandligiga moslash, rasmlar qaralligiga zarurmaslik uchun */
+  max-width: 100%; /* Elementni ekran eniga moslash */
+  max-width: 100%; /* Elementni ekran eniga moslash */
 }
 
 .contner {
@@ -54,7 +56,7 @@
   margin-left: 90px;
 }
 .MAlumot {
-  width: 1500px;
+  width: 1540px;
   height: 550px;
   margin: 1px 0px;
   background-color: black;
@@ -250,8 +252,165 @@
   flex-direction: column;
 }
 
-.course-center a{
+.course-center a {
   text-decoration: none;
   flex-direction: column;
 }
+@media screen and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+  }
 
+  .Nav-link ul li {
+    display: block; /* inline-block o'rniga block qilamiz */
+    padding: 8px 10px;
+    position: relative;
+  }
+
+  .Nav-link ul li a {
+    margin-right: 0; /* Mobil ekranda marginni olib tashlaymiz */
+    text-decoration: none;
+    display: block; /* inline-block o'rniga block qilamiz */
+    line-height: 50px;
+  }
+
+  .Nav-link ul li a:hover {
+    background-color: red;
+  }
+
+  .Nav-link {
+    text-align: center;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    height: auto; /* Mobil ekranda nav-linkni bo'lgan yuqoriga moslashtiramiz */
+  }
+  .imegku {
+    width: 100%; /* Rasmni ekran o'lchamiga moslash */
+    height: auto;
+    max-width: 100%; /* Elementni ekran eniga moslash */
+  }
+
+  .imegku image {
+    width: 100%; /* Elementni ekran eniga moslash */
+    height: auto; /* Elementni ekran balandligiga moslash, rasmlar qaralligiga zarurmaslik uchun */
+    max-width: 100%; /* Elementni ekran eniga moslash */
+  }
+
+  .contner {
+    width: 100%; /* Ekran o'lchamiga moslashtiramiz */
+    height: auto;
+    background-color: white;
+  }
+
+  .matin {
+    padding: 20px; /* Kichik o'lcham uchun paddingni o'zgartiramiz */
+  }
+
+  .matin p {
+    font-size: 16px; /* Kichik o'lcham uchun matinlarning o'lchamini kichraytiramiz */
+    line-height: 28px;
+  }
+
+  .matin ul li {
+    display: block; /* inline-block o'rniga block qilamiz */
+  }
+
+  .matin ul li video {
+    width: 100%; /* Videoni ekran o'lchamiga moslashtiramiz */
+    height: auto;
+    margin-left: 0; /* Mobil ekranda marginni olib tashlaymiz */
+  }
+
+  .MAlumot {
+    width: 100%; /* Ekran o'lchamiga moslashtiramiz */
+    height: auto;
+    margin: 10px 0; /* Mobil ekranda marginni moslashtiramiz */
+    background-color: black;
+  }
+
+  .MAlumot img {
+    width: 100%; /* Rasmni ekran o'lchamiga moslashtiramiz */
+    height: auto;
+    padding: 15px 0;
+  }
+
+  .MAlumot ul li {
+    display: block; /* inline-block o'rniga block qilamiz */
+  }
+
+  .Text p {
+    font-size: 16px; /* Matinlarning o'lchamini kichraytiramiz */
+    color: white;
+    line-height: 28px;
+    margin-bottom: 30px; /* Matinlarning orasida bo'sh joy qo'shamiz */
+  }
+
+  .Text button,
+  .buttuns {
+    width: auto;
+  }
+  .banner {
+    text-align: center;
+  }
+
+  .gg-home {
+    display: none; /* Mobil ekranda qizil chastotasini o'chirib tashlaymiz */
+  }
+
+  .ui ul li {
+    display: block; /* inline-block o'rniga block qilamiz */
+  }
+
+  .contact {
+    text-align: center;
+  }
+
+  .element {
+    font-size: 16px; /* Matinlarning o'lchamini kichraytiramiz */
+    color: black;
+    line-height: 28px;
+    margin-top: 20px; /* Mobil ekranda yuqori marginni moslashtiramiz */
+  }
+
+  .foter ul li {
+    display: block; /* inline-block o'rniga block qilamiz */
+  }
+
+  .foter {
+    height: auto; /* Mobil ekranda footer ni bo'lgan yuqoriga moslashtiramiz */
+    background-color: beige;
+    text-align: center;
+  }
+
+  .header-1 {
+    background-color: black;
+    height: 250px;
+    height: auto;
+  }
+
+  .iconcs {
+    font-size: 35px;
+  }
+
+  .location iframe {
+    width: 100%; /* Xaritaning iframasini ekran o'lchamiga moslashtiramiz */
+    height: auto;
+  }
+
+  .location {
+    text-align: center;
+  }
+
+  .a {
+    text-decoration: none;
+  }
+
+  .contact iframe {
+    width: 100%; /* Kontakt formasini ekran o'lchamiga moslashtiramiz */
+    height: auto;
+  }
+}
